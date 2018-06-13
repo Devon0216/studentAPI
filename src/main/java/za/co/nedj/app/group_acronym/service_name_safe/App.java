@@ -1,4 +1,4 @@
-package za.co.nedj.app.group_acronym.name_of_service;
+package za.co.nedj.app.group_acronym.service_name_safe;
 
 import org.shipstone.swagger.integration.annotation.SwaggerUIConfiguration;
 
