@@ -11,6 +11,6 @@
     <parent>
         <groupId>za.co.nedj</groupId>
         <artifactId>nedj-service-starter</artifactId>
-        <version>1.0.4-RELEASE</version>
+        <version>1.0.6-RELEASE</version>
     </parent>
 </project>
