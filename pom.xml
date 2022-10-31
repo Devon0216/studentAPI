@@ -2,15 +2,26 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>za.co.nedj.group_acronym</groupId>
-    <artifactId>group_acronym-service-name_of_service</artifactId>
+    <groupId>za.co.nedj.nedj</groupId>
+    <artifactId>nedj-service-studentapi</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>war</packaging>
-    <description>group_acronym-service-name_of_service</description>
+    <description>nedj-service-studentapi</description>
 
     <parent>
         <groupId>za.co.nedj</groupId>
         <artifactId>nedj-service-starter</artifactId>
-        <version>1.0.6-RELEASE</version>
+        <version>1.0.26-RELEASE</version>
     </parent>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.5.0</version>
+        </dependency>
+    </dependencies>
+
+
 </project>
